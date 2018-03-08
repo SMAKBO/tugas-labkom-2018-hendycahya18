@@ -1,0 +1,86 @@
+body {
+	max-height: 100%;
+	background-image: url("../images/bg.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar */
+nav {
+	background-color: rgb(185,205,229);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+/* navbar */
+#icon {
+	border: solid 1px rgb(207,192,226);
+	width: 35px;
+	height: 35px;
+}
+
+/* navbar */
+.active{
+	background-color: grey;
+}
+
+/* navbar */
+.dropdown-menu	{
+	 background-color: grey;
+}
+
+.carousel{
+	height: 850px;
+}
+
+.carousel-item img{
+	height: 850px;
+}
+/* Jumbotron */
+.jumbotron {
+	text-align: center;
+	background-color: rgba(92, 102, 117,0.95);
+	position: relative;
+	padding-top: 9%;
+	padding-bottom: 6%;
+	color: white;
+}
+
+/* Card */
+
+.card-columns	{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.card	{
+	opacity: 0.95;
+	color: white;
+	background-color: rgb(55, 66, 84);
+}
+
+/* Paragraph */
+.H02 {
+	margin-right: 5%;
+	margin-left: 5%;
+	border: solid 1px rgb(217,217,217);
+	padding: 4%;
+	position: relative;
+	background-color: rgba(185,205,229,0.95);
+	text-align: left;
+}
+
+/* footer */
+.H13	{
+	height: 200px;
+	background-color: rgba(92, 102, 117,0.95);
+	padding-top: 3%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+}
