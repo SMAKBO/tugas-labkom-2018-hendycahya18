@@ -39,7 +39,8 @@ nav {
 	padding-top: 9%;
 	padding-bottom: 6%;
 	color: white;
-	font-family: Caladea;
+	font-family: CutiesCaps;
+	src : url('CutiesCaps Free.ttf') format('truetype')
 }
 
 /* Paragraph */
