@@ -1,4 +1,6 @@
-body {
+45
+
+                        <li class="nav-item dropdown">body {
 	background-image: url("../images/bg.jpg");
 	background-attachment: fixed;
     background-position: center;
@@ -100,4 +102,5 @@ nav {
   padding: 20px;
   text-align: left;
   height : 100%
+  vertical-align : middle;
 }
