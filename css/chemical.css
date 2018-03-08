@@ -78,6 +78,16 @@ nav {
 	text-align: center;
 }
 
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
 .overlay {
   position: absolute; 
   bottom: 0; 
