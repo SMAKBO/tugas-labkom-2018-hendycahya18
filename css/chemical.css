@@ -13,24 +13,18 @@ nav {
 	background-color: rgb(185,205,229);
 }
 
-/* navbar */
 #icon {
 	border: solid 1px rgb(207,192,226);
 	width: 35px;
 	height: 35px;
 }
 
-/* navbar */
 .active{
 	background-color: grey;
 }
 
-/* navbar */
 .dropdown-menu	{
 	 background-color: grey;
-}
-.list-group	{
-
 }
 
 /* Title */
@@ -63,6 +57,9 @@ nav {
 	opacity: 80%;
 }
 
+.card-body {
+	text-align: center;
+}
 /* footer */
 .H13	{
 	height: 200px;
@@ -76,7 +73,5 @@ nav {
 	vertical-align: middle;
 }
 
-.card-body {
-	text-align: center;
-}
+
 
