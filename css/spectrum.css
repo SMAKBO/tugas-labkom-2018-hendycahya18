@@ -1,3 +1,4 @@
+/* Body */
 body {
 	background-image: url("../images/bg.jpg");
 	background-attachment: fixed;
@@ -10,26 +11,18 @@ body {
 nav {
 	background-color: rgb(185,205,229);
 }
-
-/* navbar */
 #icon {
 	border: solid 1px rgb(207,192,226);
 	width: 35px;
 	height: 35px;
 }
 
-/* navbar */
 .active{
 	background-color: grey;
 }
 
 .dropdown-item	{
 	color: white;
-}
-
-/* navbar */
-.H00	{
-	background-color: grey;
 }
 
 /* Title */
@@ -42,7 +35,7 @@ nav {
 	color: white;
 }
 
-/* Paragraph */
+/* Content */
 .H02 {
 	margin-right: 5%;
 	margin-left: 5%;
