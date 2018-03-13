@@ -1,4 +1,4 @@
-body, html {
+zbody, html {
   height: 100%;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
@@ -24,17 +24,17 @@ body, html {
 }
 
 .bgimg-1 {
-  background-image: url("../images/c2.jpg");
+  background-image: url("../images/prep.jpg");
   min-height: 25%;
 }
 
 .bgimg-2 {
-  background-image: url("../images/c1.jpg");
+  background-image: url("../images/c2.jpg");
   min-height: 10%;
 }
 
 .bgimg-3 {
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/c1.jpg");
   min-height: 25%;
 }
 
