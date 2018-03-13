@@ -35,7 +35,7 @@ nav {
 	position: relative;
 	padding-top: 9%;
 	padding-bottom: 6%;
-	font-family:Lucida Handwriting; 
+	font-family:"Lucida Handwriting"; 
 	text-shadow: 1px 1px 2px , 0 0 25px #FFB6C1, 0 0 5px #ADE8E6;
 	
 }
@@ -60,5 +60,19 @@ nav {
 	padding-left: 5%;
 	padding-right: 5%;
 	color: white;
+	text-align: right;
 }
+
+.alert {
+	background-color: #ADE8E6 ;
+	
+	}
+
+.hai {
+	background-color: #F08080 ;
+	text-align: center;
+	font-size: 25px
+		}
+
+
 
