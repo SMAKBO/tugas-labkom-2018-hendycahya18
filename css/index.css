@@ -1,118 +1,149 @@
-body, html {
-  height: 100%;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
+*{
+	padding: 0;
+	margin: 0;
 }
 
-/* Slide*/
-.carousel-inner	{
-	height: 750px;
+body{
+	background: #000;
 }
 
-.carousel-item img	{
-	height: 750px;
+/* HAHA*/
+.container{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
 }
 
-/* Paralax */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.container span{
+	text-transform: uppercase;
+	display: block;
 }
 
-.bgimg-1 {
-  background-image: url("../images/prep.jpg");
-  min-height: 25%;
-}
-
-.bgimg-2 {
-  background-image: url("../images/c2.jpg");
-  min-height: 10%;
-}
-
-.bgimg-3 {
-  background-image: url("../images/c1.jpg");
-  min-height: 25%;
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 40%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
-
-h1 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 25px "Lato", sans-serif;
-  color: #111;
-  text-align: center;
-}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-    }
-}
-
-/* Title */
-.H02	{
-	color: #777;
-	background-color:white;
-	padding:50px 80px;
-}
-
-/* Menu */
-.H11	{
+.text1{
+	color: rgb(113,113,113);
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 20px;
+	background: black;
 	position: relative;
-	color:#ddd;
-	background-color:#282E34;
-	text-align:center;
-	padding: 5% 15%;
+	animation: text 3s 1;
+	font-family: "Century Gothic";
 }
 
-.H12	{
-	margin-right: 13%;
-	margin-left: 13%;
+.text2{
+	font-size: 30px;
+	color: rgb(0, 72, 3);
+	font-family: Dotum;
 }
 
-/* Link */
-a	{
+@keyframes text {
+	0%{
+		color: black;
+		margin-bottom: -40px;
+	}
+	30%{
+		letter-spacing: 40px;
+		margin-bottom: -40px;
+		color : rgb(142,126,58);
+	}
+	30.5%{
+		letter-spacing: 40px;
+		margin-bottom: -40px;
+		color : rgb(200,57,18);
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}
+
+
+
+/*HEHE*/
+.center {
+	position: absolute;
+	right: 10%;
+	top: 5%;
+	transform: translate(-50%, -50%);
+}
+
+.center a {
+	font-size: 20px;
+	font-family: arial;
 	text-decoration: none;
-	color: rgb(92, 102, 117);
-}
-
-a img	{
-	width: 150px;
-	height: 150px;
-}
-
-/* footer */
-.H03	{
+	text-transform: uppercase;
+	transform-style: preserve-3d;
 	position: relative;
-	color: white;
-	height: 100px;
-	background-color: #282E34;
-	text-align: right;
-	padding:2% 7%;
+	transition: .5s;
 }
 
-.H10	{
-	font-size:25px;
-	color: #f7f7f7;">
+.center a:before{
+	content: attr(title);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 15px 40px;
+	background: rgb(0, 72, 3);
+	color: #000;
+	transition: .5s;
+	border: 3px solid #000;
+	transform-origin: right;
+	transform: translateX(-100%) rotateY(90deg);
 }
+
+.center a:after{
+	content: attr(title);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 15px 40px;
+	background-color: #000;
+	color: rgb(0, 72, 3);
+	transition: .5s;
+	border: 3px solid rgb(0, 72, 3);
+	transform-origin: left;
+	transform: translateX(0) rotateY(0deg);
+}
+
+.center a:hover:before{
+	transform: translateX(0) rotateY(0deg);
+}
+
+.center a:hover:after{
+	transform: translateX(100%) rotateY(90deg);
+}
+
+.by{
+	font-family: Tw Cen MT Condensed;
+	color: rgb(113,113,113);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
