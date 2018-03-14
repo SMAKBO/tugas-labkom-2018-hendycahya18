@@ -1,7 +1,7 @@
-body, html {
-  height: 100%;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
+body, html	{
+	height: 100%;
+	font: 400 15px/1.8 "Lato", sans-serif;
+	color: #777;
 }
 
 /* Slide*/
@@ -14,60 +14,60 @@ body, html {
 }
 
 /* Paralax */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.bgimg-1, .bgimg-2, .bgimg-3	{
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.bgimg-1 {
-  background-image: url("../images/prep.jpg");
-  min-height: 25%;
+.bgimg-1	{
+	background-image: url("../images/prep.jpg");
+	min-height: 25%;
 }
 
-.bgimg-2 {
-  background-image: url("../images/c2.jpg");
-  min-height: 10%;
+.bgimg-2	{
+	background-image: url("../images/c2.jpg");
+	min-height: 10%;
 }
 
-.bgimg-3 {
-  background-image: url("../images/c1.jpg");
-  min-height: 25%;
+.bgimg-3	{
+	background-image: url("../images/c1.jpg");
+	min-height: 25%;
 }
 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 40%;
-  width: 100%;
-  text-align: center;
-  color: #000;
+.caption	{
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	color: #000;
 }
 
 .caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
 }
 
-h1 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 25px "Lato", sans-serif;
-  color: #111;
-  text-align: center;
+h1	{
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 25px "Lato", sans-serif;
+	color: #111;
+	text-align: center;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-    }
+	.bgimg-1, .bgimg-2, .bgimg-3 {
+		background-attachment: scroll;
+	}
 }
 
 /* Title */
@@ -95,6 +95,11 @@ h1 {
 a	{
 	text-decoration: none;
 	color: rgb(92, 102, 117);
+  	opacity: .5;
+}
+
+a:hover {
+	opacity: 1;
 }
 
 a img	{
