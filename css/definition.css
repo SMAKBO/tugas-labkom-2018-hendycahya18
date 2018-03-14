@@ -46,12 +46,20 @@ nav {
 	padding: 4%;
 	position: relative;
 	background-color: rgba(185,205,229,0.95);
-	text-align: left;
+}
+
+.img-thumbnail	{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+p	{
+	text-align: justify;
 }
 
 /* footer */
 .H13	{
-	height: 200px;
+	height: 100px;
 	background-color: rgba(92, 102, 117,0.95);
 	padding-top: 3%;
 	padding-bottom: 2%;
@@ -59,3 +67,5 @@ nav {
 	padding-right: 5%;
 	color: white;
 }
+
+
