@@ -4,6 +4,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	font-family: constantia;
 }
 
 /* navbar */
@@ -51,8 +52,8 @@ nav {
 
 /* footer */
 .H13	{
-	height: 200px;
-	background-color: rgba(92, 102, 117,0.95);
+	height: 100px;
+	background-color: rgba(50, 50, 150,0.95);
 	padding-top: 3%;
 	padding-bottom: 2%;
 	padding-left: 5%;
@@ -62,4 +63,16 @@ nav {
 
 .H14	{
 	text-indent: 25px;
+}
+
+#reaksi{
+	text-align: center;
+}
+
+.alert	{
+	text-align: center;
+}
+
+.H15	{
+	margin-left: 25px;
 }
