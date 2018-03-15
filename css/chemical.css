@@ -1,3 +1,4 @@
+/*Tampilan Umum HTML*/
 body {
 	background-image: url("../images/bg.jpg");
 	background-attachment: fixed;
@@ -5,8 +6,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 /* navbar */
 nav {
@@ -27,17 +26,17 @@ nav {
 	 background-color: grey;
 }
 
+
 /* Title */
 .H01 {
 	text-align: center;
 	background: url("../images/back1.jpg");
-	background-size: 100%;
+	background-size: cover;
 	position: relative;
 	padding-top: 9%;
 	padding-bottom: 6%;
 	color: white;
 	font-family: "Century Gothic"; 	
-
 }
 
 
@@ -59,15 +58,14 @@ nav {
 	position: relative;
 	background-color: rgba(239,181,133,0.95);
 	text-align: left;
-
 }
-
 
 .card-header{
 	background-color: rgb(173, 173, 173);
 	font-family: Century Gothic;
 	text-align: center;
 }
+
 .card{
 	opacity: 80%;
 }
@@ -75,6 +73,8 @@ nav {
 .card-body {
 	text-align: center;
 }
+
+
 /* footer */
 .H13	{
 	height: 100%;
@@ -133,43 +133,3 @@ nav {
   font-family: Century Gothic;
 }
 
-/*about me*/
-
-.button {
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 12px;
-  width: 200px;
-  height: 25px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
