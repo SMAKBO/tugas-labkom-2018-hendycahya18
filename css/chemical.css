@@ -31,7 +31,7 @@ nav {
 .H01 {
 	text-align: center;
 	background: url("../images/back1.jpg");
-	background-size: cover;
+	background-size: 100%;
 	position: relative;
 	padding-top: 9%;
 	padding-bottom: 6%;
