@@ -41,7 +41,7 @@ nav {
 
 
 .H01 h1{
-	color: rgba(225,225,225,.1);
+	color: rgb(225,225,225);
 	background-image: url(../images/spect.jpg);
 	background-repeat: repeat-x;
 	-webkit-background-clip: text;
