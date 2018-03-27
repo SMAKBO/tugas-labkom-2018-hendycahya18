@@ -5,11 +5,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	cursor: url(../cursor/Regular2.cur), auto !important;
 }
 
 /* navbar */
 nav {
 	background-color: rgb(185,205,229);
+}
+
+a:hover {
+	cursor: url(../cursor/Link.cur), auto !important;
 }
 
 #icon {
@@ -18,14 +23,13 @@ nav {
 	height: 35px;
 }
 
-.active{
+.dropdown-item	{
+	color: white;
+}
+
+.current{
 	background-color: grey;
 }
-
-.dropdown-menu	{
-	 background-color: grey;
-}
-
 
 /* Title */
 .H01 {

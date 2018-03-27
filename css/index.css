@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	cursor: url(../cursor/Regular2.cur), auto !important;
 }
 
 body{
@@ -111,39 +112,15 @@ body{
 
 .center a:hover:before{
 	transform: translateX(0) rotateY(0deg);
+	cursor: url(../cursor/Link.cur), auto !important;
 }
 
 .center a:hover:after{
 	transform: translateX(100%) rotateY(90deg);
+	cursor: url(../cursor/Link.cur), auto !important;
 }
 
 .by{
 	font-family: Tw Cen MT Condensed;
 	color: rgb(113,113,113);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 	font-family: constantia;
+	cursor: url(../cursor/Regular2.cur), auto !important;
 }
 
 /* navbar */
@@ -12,21 +13,22 @@ nav {
 	background-color: rgb(185,205,229);
 }
 
-/* navbar */
+a:hover {
+	cursor: url(../cursor/Link.cur), auto !important;
+}
+
 #icon {
 	border: solid 1px rgb(207,192,226);
 	width: 35px;
 	height: 35px;
 }
 
-/* navbar */
 .active{
 	background-color: grey;
 }
 
-/* navbar */
-.dropdown-menu	{
-	 background-color: grey;
+.dropdown-item	{
+	color: white;
 }
 
 /* Title */

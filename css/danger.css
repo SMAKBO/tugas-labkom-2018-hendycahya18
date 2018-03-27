@@ -4,6 +4,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	cursor: url(../cursor/Regular2.cur), auto !important;
 }
 
 /* navbar */
@@ -11,21 +12,22 @@ nav {
 	background-color: rgb(185,205,229);
 }
 
-/* navbar */
+a:hover {
+	cursor: url(../cursor/Link.cur), auto !important;
+}
+
 #icon {
 	border: solid 1px rgb(207,192,226);
 	width: 35px;
 	height: 35px;
 }
 
-/* navbar */
-.active{
-	background-color: grey;
+.dropdown-item	{
+	color: white;
 }
 
-/* navbar */
-.dropdown-menu	{
-	 background-color: grey;
+.current{
+	background-color: grey;
 }
 
 /* Title */
@@ -51,7 +53,7 @@ nav {
 
 /* footer */
 .H13	{
-	height: 200px;
+	height: 100px;
 	background-color: rgba(92, 102, 117,0.95);
 	padding-top: 3%;
 	padding-bottom: 2%;
